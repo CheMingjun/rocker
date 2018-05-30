@@ -1,12 +1,12 @@
 # rocker
-轻量级的IOC框架,
+轻量级、易用的Javascript/Typescript IOC框架
 
 ## Usage
-安装 npm install @vdian/rocker
+安装 npm install rocker
 
 ## 代码示例
 ```javascript
-import {Container} from '@vdian/rocker';
+import {Container} from 'rocker';
 
 class User{
     id:string = 'testId';
@@ -55,7 +55,7 @@ class Control{
 
 ## 场景:RPC调用
 ```javascript
-import {Container, Inject} from '@vdian/rocker'
+import {Container, Inject} from 'rocker'
 
 //PRC Demo实现
 let RPC = {
